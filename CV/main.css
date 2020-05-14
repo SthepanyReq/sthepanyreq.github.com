@@ -2,7 +2,13 @@
 body{
     background-color:rgb(32, 30, 27) ; 
 }
-
+head{
+    @-webkit-viewport { width: device-width; }
+    @-moz-viewport { width: device-width; }
+    @-ms-viewport { width: device-width; }
+    @-o-viewport { width: device-width; }
+    @viewport { width: device-width; }
+}
 /*------- LAYOUT------ */
 .main-container{
     display: flex;
@@ -94,8 +100,8 @@ main section > h2{
 }
 .hero h1{
     letter-spacing: 12px;
-    margin-top: -38px;
-    line-height: 1em;
+    margin-top: -36px;
+    line-height: 1.3em;
     text-align: center;
     font-size: 210%;
 }
@@ -103,7 +109,7 @@ main section > h2{
     background-color: white;
 }
 .about-me ul li {
-    line-height: 0.9em;
+    line-height: 1.3em;
     background-color:rgb(238, 224, 211) ;
     padding: 9px;
     list-style-type: square;
@@ -122,14 +128,17 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
+    padding-bottom: 7%;
+    
 }
 .references article{
     width: 50%;
 }
 figure img{
-    width: 20%;
-    
+    width: 22%;  
+    margin-top: 3%;
 }
+
 
 /* DL */
 dl{
@@ -207,7 +216,12 @@ dd{
     margin-right: 9%;
     margin-bottom: -4% ;
 }  
-
+.glitch img{
+    height: 30px;
+    margin-top: 5%;
+    margin-right: 9%;
+    margin-bottom: -4% ;
+}  
 
 
 
