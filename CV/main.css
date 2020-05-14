@@ -2,9 +2,7 @@
 body{
     background-color:rgb(32, 30, 27) ; 
 }
-head{
-    @viewport { width: device-width; }
-}
+@viewport { width: device-width; }
 /*------- LAYOUT------ */
 .main-container{
     display: flex;
@@ -124,7 +122,7 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     
 }
 .references article{
