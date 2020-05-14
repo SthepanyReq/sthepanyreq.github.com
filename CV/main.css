@@ -10,9 +10,9 @@ body{
     width: 100%;
     max-width: 1000px;
     margin:0  auto;
-    overflow: visible;
+    overflow: visible ;
     background-color:rgb(255, 255, 255) ; 
-    
+    background-size:40% ;
 }
 
 
@@ -118,7 +118,7 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
-    padding-bottom: 6.5%;
+    padding-bottom: 4.5%;
     
 }
 .references article{
