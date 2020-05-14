@@ -118,7 +118,7 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
-    margin-bottom: 2%;
+    padding-bottom: 3%;
     
 }
 .references article{
@@ -126,7 +126,7 @@ article ul li{
 }
 figure img{
     width: 22%;  
-    margin-top: -2%;
+    padding-top: 1%;
 }
 
 
