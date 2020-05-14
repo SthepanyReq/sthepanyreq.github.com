@@ -123,7 +123,7 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 5.2%;
     
 }
 .references article{
@@ -262,4 +262,3 @@ aside ul input{
     cursor: pointer;
     border-radius: 50%;
 }
- /*
