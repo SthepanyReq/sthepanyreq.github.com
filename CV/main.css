@@ -118,15 +118,15 @@ article ul li{
     flex-wrap: wrap;
     background-color: rgb(238, 224, 211);
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     
 }
 .references article{
     width: 50%;
 }
 figure img{
-    width: 22%;  
-    padding-top: 1%;
+    width: 20%;  
+    
 }
 
 
