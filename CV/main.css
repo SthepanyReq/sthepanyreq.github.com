@@ -2,7 +2,8 @@
 body{
     background-color:rgb(32, 30, 27) ; 
 }
-@viewport { width: device-width; }
+
+
 /*------- LAYOUT------ */
 .main-container{
     display: flex;
